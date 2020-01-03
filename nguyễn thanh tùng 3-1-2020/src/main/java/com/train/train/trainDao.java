@@ -1,10 +1,9 @@
-package com.example.Giuxe;
-
+package com.train.train;
 import javax.transaction.Transactional;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 
 @Transactional
-public interface GiuxeDAO extends JpaRepository<Giuxe, Integer> {
+public interface trainDao extends JpaRepository<train, Integer> {
 
 }

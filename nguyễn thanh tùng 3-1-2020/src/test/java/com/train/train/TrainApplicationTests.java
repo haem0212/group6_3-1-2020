@@ -1,10 +1,10 @@
-package com.example.Giuxe;
+package com.train.train;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class GiuxeApplicationTests {
+class TrainApplicationTests {
 
 	@Test
 	void contextLoads() {

@@ -8,14 +8,14 @@
 		<version>2.2.1.RELEASE</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.training</groupId>
-	<artifactId>api</artifactId>
+	<groupId>com.train</groupId>
+	<artifactId>train</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>api</name>
+	<name>train</name>
 	<description>Demo project for Spring Boot</description>
 
 	<properties>
-    <maven-jar-plugin.version>3.1.1</maven-jar-plugin.version>
+		<java.version>1.8</java.version>
 	</properties>
 
 	<dependencies>
@@ -51,27 +51,7 @@
 			</exclusions>
 		</dependency>
 		
-		 <dependency>
-	          <groupId>org.springframework.boot</groupId>
-	          <artifactId>spring-boot-starter-security</artifactId>
-	      </dependency>
-	      <dependency>
-      <groupId>org.hibernate</groupId>
-      <artifactId>hibernate-core</artifactId>
-      <scope>compile</scope>
-    </dependency>
-	      <dependency>
-	          <groupId>org.springframework.ldap</groupId>
-	          <artifactId>spring-ldap-core</artifactId>
-	      </dependency>
-	      <dependency>
-	          <groupId>org.springframework.security</groupId>
-	          <artifactId>spring-security-ldap</artifactId>
-	      </dependency>
-	      <dependency>
-	          <groupId>com.unboundid</groupId>
-	          <artifactId>unboundid-ldapsdk</artifactId>
-	      </dependency>
+		 
 	      <dependency>
 	          <groupId>org.springframework.security</groupId>
 	          <artifactId>spring-security-test</artifactId>

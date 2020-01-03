@@ -1,13 +1,13 @@
-package com.example.Giuxe;
+package com.train.train;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class GiuxeApplication {
+public class TrainApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(GiuxeApplication.class, args);
+		SpringApplication.run(TrainApplication.class, args);
 	}
 
 }
